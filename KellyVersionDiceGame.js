@@ -29,7 +29,7 @@ function newBalance(balance) {
     }
     else {
         balance--;
-        document.getElementById("status").innerHTML = "Dough!";
+        document.getElementById("status").innerHTML = "Doh!";
     }
 
     if (balance === 0) {  
